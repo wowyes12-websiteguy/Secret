@@ -109,8 +109,18 @@ namespace StupidTemplate.Mods
         public static void upsidedownhead()
         {
             VRRig.LocalRig.head.trackingPositionOffset.z = 180f;
+
+
+
         }
 
+
+
+public static void disableupsidedownhead() {
+VRRig.LocalRig.head.trackingPositionOffset.z  = 0f;
+
+
+}
 
         public static void noclip()
         { 
